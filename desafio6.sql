@@ -1,4 +1,3 @@
--- referência para ROUND: https://www.w3schools.com/sql/func_mysql_round.asp
 SELECT
   ROUND(MIN(plans.plan_value), 2) AS 'faturamento_minimo',
   ROUND(MAX(plans.plan_value), 2) AS 'faturamento_maximo',

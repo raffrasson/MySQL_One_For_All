@@ -6,7 +6,7 @@ CREATE TABLE SpotifyClone.artists(
   artist_name VARCHAR(50) NOT NULL
 ) ENGINE = InnoDB;
     
-INSERT INTO SpotifyClone.artists(artist_name)
+INSERT INTO SpotifyClone.artists (artist_name)
 VALUES
 ('Walter Phoenix'),
 ('Peter Strong'),
